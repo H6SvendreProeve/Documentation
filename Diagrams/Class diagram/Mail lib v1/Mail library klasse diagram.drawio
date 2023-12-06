@@ -1,0 +1,71 @@
+<mxfile host="Electron" modified="2023-12-06T22:54:48.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="qM3KUmkc9ihPspzYS4do" version="22.1.2" type="device">
+  <diagram name="Page-1" id="TO1dSzs_Guxy6mVxo7hh">
+    <mxGraphModel dx="2960" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xNLxQsPIqcRWq7W58bwk-1" value="MailHandeler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="325" y="158" width="520" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="7xXusvaDjV_1Z4p0bHbc-3" value="- SmtpUser : string {get; set;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-1" vertex="1">
+          <mxGeometry y="26" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7xXusvaDjV_1Z4p0bHbc-7" value="- SmtpPassword : string {get; set;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-1" vertex="1">
+          <mxGeometry y="52" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7xXusvaDjV_1Z4p0bHbc-6" value="- Host : string {get; set;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-1" vertex="1">
+          <mxGeometry y="78" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7xXusvaDjV_1Z4p0bHbc-5" value="- Port : int {get; set;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-1" vertex="1">
+          <mxGeometry y="104" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xNLxQsPIqcRWq7W58bwk-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="xNLxQsPIqcRWq7W58bwk-1" vertex="1">
+          <mxGeometry y="130" width="520" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="7xXusvaDjV_1Z4p0bHbc-4" value="+ MailHandler(string smtpUser, string smtpPassword, string host, int port)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-1" vertex="1">
+          <mxGeometry y="138" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xNLxQsPIqcRWq7W58bwk-4" value="+ SendMailToAll(MimeMessage massage, List&amp;lt;string&amp;gt; listOfNames)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-1" vertex="1">
+          <mxGeometry y="164" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xNLxQsPIqcRWq7W58bwk-5" value="- AddAllRecipients(MimeMessage massage, List&amp;lt;string&amp;gt; listOfNames) : static MimeMessage&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-1" vertex="1">
+          <mxGeometry y="190" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7xXusvaDjV_1Z4p0bHbc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=10;" parent="1" source="xNLxQsPIqcRWq7W58bwk-6" target="xNLxQsPIqcRWq7W58bwk-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7xXusvaDjV_1Z4p0bHbc-9" value="&amp;lt;&amp;lt;DI&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7xXusvaDjV_1Z4p0bHbc-8" vertex="1" connectable="0">
+          <mxGeometry x="0.2038" relative="1" as="geometry">
+            <mxPoint y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNLxQsPIqcRWq7W58bwk-6" value="OxygenMailLibray" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="325" y="478" width="520" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="7xXusvaDjV_1Z4p0bHbc-1" value="- MailHandler : MailHandler {get;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-6" vertex="1">
+          <mxGeometry y="26" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7xXusvaDjV_1Z4p0bHbc-2" value="+ MailOptions : enum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-6" vertex="1">
+          <mxGeometry y="52" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xNLxQsPIqcRWq7W58bwk-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="xNLxQsPIqcRWq7W58bwk-6" vertex="1">
+          <mxGeometry y="78" width="520" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xNLxQsPIqcRWq7W58bwk-8" value="+ OxygenMail(MailHandler mailHandler)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-6" vertex="1">
+          <mxGeometry y="86" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xNLxQsPIqcRWq7W58bwk-11" value="+&amp;nbsp;SendMailToSubscribes(List&amp;lt;string&amp;gt; listOfNames, MailOptions option = MailOptions.Harvest)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-6" vertex="1">
+          <mxGeometry y="112" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xNLxQsPIqcRWq7W58bwk-10" value="-&amp;nbsp;SetSubjectAndMessageErrorMsg() : MimeMessage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-6" vertex="1">
+          <mxGeometry y="138" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xNLxQsPIqcRWq7W58bwk-9" value="- SetSubjectAndMessageHarvestClamsMsg() : MimeMessage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="xNLxQsPIqcRWq7W58bwk-6" vertex="1">
+          <mxGeometry y="164" width="520" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

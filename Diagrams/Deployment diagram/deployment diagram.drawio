@@ -1,50 +1,127 @@
-<mxfile host="Electron" modified="2023-11-21T13:41:35.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="vetxTHWOVsLwDLNi5It4" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-12-05T10:59:27.078Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="aMwfjfLW_EaBDkS67Lmg" version="22.0.3" type="device">
   <diagram name="Page-1" id="OuYMhSyWYj2W4IYW3-0W">
-    <mxGraphModel dx="1195" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=80;entryDy=0;entryPerimeter=0;exitX=0.63;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="UUSNZg-RWot4KdmJYI-3-4" target="UUSNZg-RWot4KdmJYI-3-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=80;entryDy=0;entryPerimeter=0;exitX=0.38;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="UUSNZg-RWot4KdmJYI-3-4" target="UUSNZg-RWot4KdmJYI-3-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-3" value="&amp;lt;&amp;lt;protocol&amp;gt;&amp;gt;&lt;br&gt;I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UUSNZg-RWot4KdmJYI-3-2">
-          <mxGeometry x="-0.2541" y="1" relative="1" as="geometry">
-            <mxPoint x="-18" y="-3" as="offset" />
+        <mxCell id="UUSNZg-RWot4KdmJYI-3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=92;entryPerimeter=0;exitX=0;exitY=0;exitDx=140;exitDy=102;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="AHeNK7S0Yd_ydixCD7EH-25" target="AHeNK7S0Yd_ydixCD7EH-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1037.1" y="542.0000000000002" as="sourcePoint" />
+            <mxPoint x="1109.9999999999995" y="604" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1022" y="604" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-4" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;points=[[0,0,0,0,0],[0,0,0,0,55],[0,0,0,0,110],[0,0,0,5,115],[0,0,0,80,0],[0,0,0,160,0],[0,0,0,165,5],[0,0,0,170,10],[0,0,0,170,65],[0.13,1,0,0,0],[0.25,1,0,0,0],[0.38,1,0,0,0],[0.5,1,0,0,0],[0.63,1,0,0,0],[0.75,1,0,0,0],[0.88,1,0,0,0]];" vertex="1" parent="1">
-          <mxGeometry x="360" y="160" width="170" height="120" as="geometry" />
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-40" value="&amp;lt;&amp;lt;protocol&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UUSNZg-RWot4KdmJYI-3-1">
+          <mxGeometry x="0.4958" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-60" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-5" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Arduino uno" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="400" y="175" width="80" height="30" as="geometry" />
+        <mxCell id="UUSNZg-RWot4KdmJYI-3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=92;entryPerimeter=0;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=140;exitDy=102;exitPerimeter=0;" parent="1" source="AHeNK7S0Yd_ydixCD7EH-25" target="AHeNK7S0Yd_ydixCD7EH-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="512" as="sourcePoint" />
+            <mxPoint x="919.9999999999995" y="604" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1014" y="510" />
+              <mxPoint x="719" y="510" />
+              <mxPoint x="719" y="575" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-6" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="270" y="342" width="170" height="120" as="geometry" />
+        <mxCell id="UUSNZg-RWot4KdmJYI-3-3" value="&amp;lt;&amp;lt;protocol&amp;gt;&amp;gt;&lt;br&gt;I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UUSNZg-RWot4KdmJYI-3-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.2541" y="1" relative="1" as="geometry">
+            <mxPoint x="-183" y="29" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-7" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Arduino uno" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="352" width="90" height="40" as="geometry" />
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-25" value="" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="922" y="332" width="194" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-8" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="460" y="342" width="170" height="120" as="geometry" />
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-28" value="&amp;lt;&amp;lt;artifacts&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;oxygen_measurement - master.ino" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="941" y="402" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-9" value="&amp;lt;&amp;lt;artifacts&amp;gt;&amp;gt;&lt;br&gt;clam_cage - slave.ino" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="485" y="392" width="120" height="60" as="geometry" />
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-29" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Arduino uno" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="971" y="362" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-10" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Arduino uno" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="505" y="357" width="80" height="30" as="geometry" />
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-30" value="" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="342" width="194" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-11" value="&amp;lt;&amp;lt;artifacts&amp;gt;&amp;gt;&lt;br&gt;scarecrow - slave.ino" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="392" width="120" height="60" as="geometry" />
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-31" value="&amp;lt;&amp;lt;artifacts&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;oxygen_measurement - api slave.ino" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="649" y="402" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-12" value="&amp;lt;&amp;lt;artifacts&amp;gt;&amp;gt;&lt;br&gt;oxygen_measurement - master.ino" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-32" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Arduino MKR1010" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="659" y="357" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UUSNZg-RWot4KdmJYI-3-13" value="&amp;lt;&amp;lt;protocol&amp;gt;&amp;gt;&lt;br&gt;I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="475.0033333333332" y="289.5" as="geometry">
-            <mxPoint x="28" y="20" as="offset" />
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-34" value="" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="622" y="574.98" width="194" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-35" value="&amp;lt;&amp;lt;artifacts&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;scarecrow - slave.ino" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="641" y="634.98" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-36" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Arduino uno" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="666" y="589.98" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-37" value="" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="922" y="574.98" width="194" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-38" value="&amp;lt;&amp;lt;artifacts&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;clam_cage - slave.ino" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="941" y="634.98" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-39" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Arduino uno" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="966" y="589.98" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=60;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AHeNK7S0Yd_ydixCD7EH-25" target="AHeNK7S0Yd_ydixCD7EH-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-42" value="&amp;lt;&amp;lt;protocol&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AHeNK7S0Yd_ydixCD7EH-41">
+          <mxGeometry x="0.1489" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-54" value="" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="89" width="560" height="551" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-11" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;docker host" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="129" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-57" value="" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="179.5" width="290" height="429" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-58" value="dev_network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-21" value="&amp;lt;&amp;lt;volume&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;oxygenMeasurementApi_data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="437" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-47" value="" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="239" width="220" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-48" value="&amp;lt;&amp;lt;artifacts&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;OxygenMeasurementApi.dll" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="324.75" y="302" width="160.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-49" value="&amp;lt;&amp;lt;container&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;oxygenMeasurement_api_container&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="254" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-50" value="" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="402" width="220" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-51" value="&amp;lt;&amp;lt;artifacts&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;PostgreSQL" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="329.5" y="467" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-52" value="&amp;lt;&amp;lt;container&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;oxygenMeasurement_db_container&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="417" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=220;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AHeNK7S0Yd_ydixCD7EH-21" target="AHeNK7S0Yd_ydixCD7EH-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=92;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" target="AHeNK7S0Yd_ydixCD7EH-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="305" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AHeNK7S0Yd_ydixCD7EH-60" value="http:80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AHeNK7S0Yd_ydixCD7EH-59">
+          <mxGeometry x="0.0272" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
